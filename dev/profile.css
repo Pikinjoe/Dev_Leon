@@ -740,8 +740,8 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.translate-y-\[0\%\] {
-  --tw-translate-y: 0%;
+.translate-y-0 {
+  --tw-translate-y: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -849,12 +849,12 @@ video {
   background-color: rgb(31 31 56 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/dev\/images\/pexels-expect-best-323780\.jpg\'\)\] {
-  background-image: url('/dev/images/pexels-expect-best-323780.jpg');
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-heading-pattern {
+  background-image: url('./images/pexels-expect-best-323780.jpg');
 }
 
 .from-primary {

@@ -14,7 +14,7 @@ module.exports = {
         'cards-primary': 'rgba(51, 20, 226, 0.494)'
       },
       backgroundImage: {
-        'heading': "url('')"
+        'heading-pattern': "url('./images/pexels-expect-best-323780.jpg')"
       }
     },
  
